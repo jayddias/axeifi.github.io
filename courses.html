@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Hot Beans Web</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"> <!-- bootstrap icons -->
+    <!-- bootstrap  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+  <body>
+<!--START NAVIGATION BAR %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+<nav class="navbar sticky-top navbar-expand-sm navbar-dark" style="background-color: #D95B5A;">
+    <a href="index.html" class="navbar-brand">
+      <img src="/media/Hot Beans Web Logo B.png" alt="Hot Beans Web Logo" width="50" height="50">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"><!--specify target to show when uncollapsed-->
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarMenu">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0"> <!--unordered list to store navbar items-->
+        <li class="nav-item">
+          <a href="/aboutus.html" class="nav-link mb-0 h4 fs-2">About Us</a></li>
+        <li class="nav-item">
+          <a href="/specifications.html" class="nav-link mb-0 h4 fs-2">Specifications</a>
+        </li>
+        <li class="nav-item">
+          <a href="/courses.html" class="nav-link mb-0 h4 fs-2">Courses</a>
+        </li>
+        <li class="nav-item">
+          <a href="/profiles.html" class="nav-link mb-0 h4 fs-2">Trainee Profiles</a>
+        </li>
+      </ul>
+      <!--search button and apply button-->
+      <form class="form-inline">
+        <a href="/form.html" class="btn btn-dark mr-3">Apply Now</a>
+        <button type="button" class="btn btn-default" aria-label="Search website"> <!--label for users of assistive technologies-->
+          <span class="bi-search" aria-hidden="true"></span>
+        </button>
+      </form>    
+    </div>
+  </nav>
+<!--END NAVIGATION BAR %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+<div class="container pt-4">
+    <h3>Courses</h3>
+    <h5>Want some place to start with website development? Here are some links below categorised by level of difficulty.</h5>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="level2-tab" data-toggle="tab" href="#level2" role="tab" aria-controls="level2" aria-selected="true">Beginner</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="level3-tab" data-toggle="tab" href="#level3" role="tab" aria-controls="level3" aria-selected="false">Intermediate</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="level4-tab" data-toggle="tab" href="#level4" role="tab" aria-controls="level4" aria-selected="false">Expert </a>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="level2" role="tabpanel" aria-labelledby="home-tab">
+            <h4>Beginner courses to help you get started with HTML, CSS and JS no matter your level of education in this field.</h4>
+            <li><a href="https://www.freecodecamp.org/news/learn-html-beginners-course/">freeCodeCamp</a></li>
+            <li><a href="https://www.codecademy.com/learn/paths/web-development">Codeacademy (paid)</a></li>
+            <li><a href="https://tutorials.codebar.io/html/lesson1/tutorial.html">Codebar.io (HTML & CSS)</a></li>
+            
+        </div>
+        <div class="tab-pane fade" id="level3" role="level3" aria-labelledby="level3-tab">
+            <h5>Intermediate courses designed for people with prior experience to HTML, CSS & JS</h5>
+            <li><a href="https://htmldog.com/guides/html/intermediate/">Htmldog.com</a></li>
+            <li><a href="https://www.theodinproject.com/paths/full-stack-javascript/courses/intermediate-html-and-css">The Odin Project</a></li>
+            <iframe width="1024" height="500" src="https://www.youtube.com/embed/2jv1CF3iJkw" title="HTML 201: Intermediate HTML web development (Course Introduction)" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        </div>
+        <div class="tab-pane fade" id="level4" role="level4" aria-labelledby="level4-tab">Content trois</div>
+      </div>
+</div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
