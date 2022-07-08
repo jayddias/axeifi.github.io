@@ -22,7 +22,7 @@
         <li class="nav-item">
           <a href="/aboutus.html" class="nav-link mb-0 h4 fs-2">About Us</a></li>
         <li class="nav-item">
-          <a href="/specifications.html" class="nav-link mb-0 h4 fs-2">Specifications</a>
+          <a href="/jobs.html" class="nav-link mb-0 h4 fs-2">Jobs</a>
         </li>
         <li class="nav-item">
           <a href="/courses.html" class="nav-link mb-0 h4 fs-2">Courses</a>
@@ -46,24 +46,24 @@
     <form>
         <div class="form-group">
           <label for="name">Full Name</label>
-          <input type="text" class="form-control" aria-describedby="NameHelp" placeholder="Pedro Gonçalves">
+          <input type="text" class="form-control" aria-describedby="NameHelp" placeholder="Pedro Gonçalves" required>
         </div>
         <div class="form-group">
             <label for="inputAddress">Address line 1</label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="10 Downing Street">
+            <input type="text" class="form-control" id="inputAddress" placeholder="10 Downing Street" required>
           </div>
           <div class="form-group">
             <label for="inputAddress2">Address line 2</label>
-            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" required>
           </div>
           <div class="form-row">
             <div class="form-group col">
               <label for="inputCity">City</label>
-              <input type="text" class="form-control" id="inputCity" placeholder="London">
+              <input type="text" class="form-control" id="inputCity" placeholder="London" required>
             </div>
             <div class="form-group col-md-4">
               <label for="inputState">State</label>
-              <select id="inputState" class="form-control">
+              <select id="inputState" class="form-control" required>
                 <option selected>England</option>
                 <option>Scotland</option>
                 <option>Wales</option>
@@ -72,7 +72,7 @@
             </div>
             <div class="form-group col-m4">
                 <label for="inputPostal">Postcode</label>
-                <input type="text" class="form-control" id="inputPostal" placeholder="SW1A 2AA">
+                <input type="text" class="form-control" id="inputPostal" placeholder="SW1A 2AA" required>
             </div>
           </div>
           <label for="inputPhone">Phone Number</label>
@@ -80,11 +80,11 @@
             <div class="input-group-prepend">
               <div class="input-group-text">+44</div>
             </div>
-            <input type="text" class="form-control" id="inputPhone" placeholder="07895352315">
+            <input type="number" class="form-control" id="inputPhone" placeholder="07895352315" required>
           </div>
           <div class="form-group mb-2">
             <label for="inputEmail">Email Address</label>
-            <input type="email" class="form-control" id="inputEmail" placeholder="borisjohnson@gov.uk">
+            <input type="email" class="form-control" id="inputEmail" placeholder="borisjohnson@gov.uk" required>
           </div>
 
         <button type="submit" class="btn btn-primary">Submit</button>
